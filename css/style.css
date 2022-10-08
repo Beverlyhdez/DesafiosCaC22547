@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.links-container {
+    background-color: lightgrey;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.html {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    align-self: center;
+}
+
+.css {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    align-self: center;
+}
+
+.footer {
+    background-color: lightgray;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
